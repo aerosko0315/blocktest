@@ -54,16 +54,16 @@ p {
     margin-left: auto;
     margin-right: auto;
     max-width: 1050px;
-  }
 
-  .text-with-image__inner .wp-block-media-text__media {
-    padding: 0 5% 0 15%;
-    -ms-grid-row-align: end;
-    align-self: end;
-  }
+    .wp-block-media-text__media {
+      padding: 0 5% 0 15%;
+      -ms-grid-row-align: end;
+      align-self: end;
+    }
 
-  .text-with-image__inner .wp-block-media-text__content {
-    padding: 0 20% 0 10%;
+    .wp-block-media-text__content {
+      padding: 0 20% 0 10%;
+    }
   }
 }
 

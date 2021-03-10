@@ -185,6 +185,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 add_theme_support('align-wide');
 
 function load_custom_wp_admin_style() {
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap', false );
     wp_enqueue_style('admin-style', get_template_directory_uri() . '/css/admin-style.css', array(), _S_VERSION);
 }
 add_action('admin_head', 'load_custom_wp_admin_style');
